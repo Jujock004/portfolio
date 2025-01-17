@@ -1,0 +1,97 @@
+.title-home {
+    color: black;
+    font-family: Montserrat;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 0;
+}
+
+.text-home {
+    color: #000;
+    font-family: "Source Sans 3";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.higlight-green {
+    color: #0B8448;
+}
+
+.button {
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.button-resume {
+    color: #FFF;
+    padding: 32px 64px;
+    background-color: #0B8448;
+    display: flex;
+    border-radius: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.button-resume:hover {
+    background-color: #35C67E;
+    animation: springAnimation 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.button-projects {
+    color: #000;
+    padding: 32px 64px;
+    background-color: white;
+    display: flex;
+    border: 2px solid #000;
+    border-radius: 100px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+}
+
+.button-projects:hover {
+    background: #FFEF72;
+    animation: springAnimation 0.6s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.home-header {
+    display: flex;
+    flex-direction: column;
+}
+
+@keyframes springAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    75% {
+        transform: scale(0.95);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
